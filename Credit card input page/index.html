@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <!-- <input type="text"> -->
+
+    <div class="card">
+        <br><h2>Invoice</h2>
+        <br><div class="images">
+            <img src="Visa-icon.png" alt="">
+            <img src="mastercard.png" alt="">
+            <img src="american express.png" alt="">
+        </div>
+
+        <div class="name-co"  ><p><strong>Name on card</strong></p><br>
+            <input class="full" id="fulltwo" type="text" placeholder="Ex. John Website"></div>
+
+        <div class="card-co" ><p><strong>Card number</strong></p><br>
+        <input class="full"  id="fullone" type="text" placeholder="1234 5678 9012 3456"></div>
+
+        <div class="excvv">
+
+        <div class="ex"><p><strong>Expiry date</strong></p><br>
+        <input class="half" id="halfone" maxlength="5" type="text" placeholder="mm/yy"></div>
+
+        <div class="cvv"><p><strong>CVV</strong></p><br>
+        <input class="half" id="halftwo" maxlength="3" type="password" placeholder="***"></div>
+        </div>
+
+        <button><strong>Checkout</strong></button>
+
+    </div>
+
+    
+    <script src="card.js"></script>
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>

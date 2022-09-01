@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+    padding-left: 20px;
+}
+
+.card {
+    width: 28vw;
+    height: 85vh;
+    /* border: 1px solid black; */
+    margin: 50px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #888888;
+}
+
+.card .images {
+    width: 90%;
+    height: 10%;
+    margin: auto;
+    /* border: 1px solid black; */
+    /* margin-top: 20px; */
+    display: flex;
+}
+
+.card .images img{
+    width: 50px;
+    height: 50px;
+}
+
+.card-co {
+    width: 90%;
+    height: 20%;
+    margin: 5px auto;
+    /* border: 1px solid black; */
+}
+
+.name-co {
+    width: 90%;
+    height: 20%;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+
+.full {
+    /* padding-right: 170px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px; */
+    border-radius: 5px;
+    width: 100%;
+    height: 40%;
+    /* border: 0.5px solid black; */
+    box-shadow: 0 0 10px #888888;
+    border: 0ch;
+}
+
+
+.excvv {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 20%;
+    /* border: 1px solid black; */
+    margin: auto;
+
+}
+
+.excvv .ex{
+    width: 45%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+
+.excvv .cvv{
+    width: 45%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+
+.half {
+    width: 100%;
+    height: 40%;
+    border-radius: 5px;
+    /* border: 1px solid black; */
+    box-shadow: 0 0 10px #888888;
+    border: 0ch;
+    
+}
+
+button{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    background-color:darkslateblue;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    box-shadow: 0 0 10px #888888;
+}
+
+button:hover{
+    background-color:aqua;
+}
+
